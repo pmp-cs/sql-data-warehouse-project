@@ -66,8 +66,8 @@ CREATE TABLE bronze_erp_px_cat_g1v2 (
     maintenance VARCHAR(50) CHARACTER SET utf8mb4
 );
 
-DROP TABLE IF EXISTS load_logs;
-CREATE TABLE load_logs (
+DROP TABLE IF EXISTS bronze_load_logs;
+CREATE TABLE bronze_load_logs (
 	step_id INT AUTO_INCREMENT PRIMARY KEY,
 	message VARCHAR(255),
 	duration_sec INT
